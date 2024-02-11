@@ -40,8 +40,9 @@
         android:usesCleartextTraffic="true">
 
         <meta-data
-            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true" />
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2916714021613915~5741051263"/>
+
 
         <activity
             android:name=".splash.SplashActivity"
