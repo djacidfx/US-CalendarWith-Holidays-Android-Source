@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 33
+    compileSdk 34
     defaultConfig {
         applicationId 'work.mywild.calander'
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdk 34
         versionCode 1
         versionName '1.0.0'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        resConfigs 'en'
+        resourceConfigurations += ['en']
         multiDexEnabled true
     }
     bundle {
@@ -36,7 +36,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    buildToolsVersion '33.0.1'
+    buildToolsVersion '34.0.0'
     namespace 'com.demo.usacalander'
 }
 dependencies {
