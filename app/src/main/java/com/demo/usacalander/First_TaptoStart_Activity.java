@@ -46,7 +46,7 @@ public class First_TaptoStart_Activity extends AppCompatActivity {
         this.prefManager = new PrefManager(this);
 
         this.txt_privacyPolicy = (TextView) findViewById(R.id.txt_privacy);
-        this.txt_privacyPolicy.setText(Html.fromHtml("<a href='https://google.com'>Privacy Policy</a>"));
+        this.txt_privacyPolicy.setText(Html.fromHtml("<a href='https://mywild.work/privacy'>Privacy Policy</a>"));
         this.txt_privacyPolicy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

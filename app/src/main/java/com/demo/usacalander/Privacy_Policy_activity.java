@@ -81,7 +81,7 @@ public class Privacy_Policy_activity extends AppCompatActivity {
                 WebView webView = (WebView) dialog.findViewById(R.id.privacy_webview);
                 webView.getSettings().setJavaScriptEnabled(true);
                 webView.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_OVERLAY);
-                webView.loadUrl("https://google.com");
+                webView.loadUrl("https://mywild.work/privacy");
                 ((ImageView) dialog.findViewById(R.id.img_cancel)).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view2) {
@@ -124,7 +124,7 @@ public class Privacy_Policy_activity extends AppCompatActivity {
                 create.show();
             }
         });
-        this.webvw.loadUrl("https://google.com");
+        this.webvw.loadUrl("https://mywild.work/privacy");
     }
 
     @Override
